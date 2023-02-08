@@ -1,0 +1,213 @@
+<mjml>
+  <mj-head>
+    <mj-style> *{ box-sizing: border-box; } </mj-style>
+    <mj-attributes>
+      <mj-class name="b-radius" border-radius="10px" />
+      <mj-class name="normal-link" text-transform="none" padding="12px 20px" />
+      <mj-class name="center" align="center" />
+      <mj-class name="no-padding" padding="0" />
+      <mj-class name="no-margin" margin="0" />
+      <mj-class name="top-background" background-color="#004c91" />
+      <mj-class name="small-font" font-size="8px" />
+      <mj-class
+        name="social-icons"
+        padding="0 20px"
+        background-color="#404040"
+      />
+      <mj-all font-family="Arial" color="#404040" />
+    </mj-attributes>
+    <mj-preview>🤩 Wait until you see this!</mj-preview>
+    <mj-title>Here's Our Sale of the Week</mj-title>
+  </mj-head>
+  <mj-body background-color="#404040">
+    <!-- Wrapper -->
+    <mj-wrapper mj-class="no-padding" background-color="#fafafa">
+      <!-- Top Bar -->
+      <mj-section padding="0 10px">
+        <mj-raw>
+          <div
+            width="100%"
+            style="
+              display: flex;
+              justify-content: space-between;
+              color: #404040;
+            "
+          >
+            <p style="font-size: 10px">Get all the goods for less.</p>
+            <p
+              href="#"
+              style="text-decoration: none; cursor: pointer; font-size: 10px"
+            >
+              My Account
+            </p>
+          </div>
+        </mj-raw>
+      </mj-section>
+
+      <!-- Top Banner / Logo Area -->
+      <mj-section mj-class="no-margin no-padding">
+        <mj-column mj-class="top-background" width="100%">
+          <mj-image
+            mj-class="no-padding"
+            width="80px"
+            src="images\wm-logo.png"
+            alt="walmart logo"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Nav Bar -->
+      <mj-section mj-class="no-padding no-margin">
+        <mj-column width="100%">
+          <mj-navbar align="center">
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Women's</mj-navbar-link
+            >
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Men's</mj-navbar-link
+            >
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Kid's</mj-navbar-link
+            >
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Shoes</mj-navbar-link
+            >
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Accessories</mj-navbar-link
+            >
+            <mj-navbar-link mj-class="normal-link" href="#"
+              >Shop All</mj-navbar-link
+            >
+          </mj-navbar>
+        </mj-column>
+      </mj-section>
+
+      <!-- Body Image Link 1 -->
+      <mj-section mj-class="no-padding">
+        <mj-column width="100%">
+          <mj-image
+            mj-class="no-padding"
+            src="images\Sale of the week.png"
+            alt=""
+            href="#"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Spacer -->
+      <mj-section padding="0">
+        <mj-column width="100%">
+          <mj-spacer height="30px" container-background-color="#004c91" />
+        </mj-column>
+      </mj-section>
+
+      <!-- Body Image Link 2-->
+      <mj-section mj-class="no-padding">
+        <mj-column width="100%">
+          <mj-image
+            mj-class="no-padding"
+            src="images\main-2.png"
+            alt=""
+            href="#"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Work Boots Section -->
+      <mj-section mj-class="no-padding">
+        <mj-column>
+          <mj-image
+            href="#"
+            mj-class="no-padding"
+            src="media\work.gif"
+            alt=""
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Image Link -->
+      <mj-section padding="0">
+        <mj-column width="100%">
+          <mj-image
+            mj-class="no-padding"
+            src="images\clothing section.png"
+            alt=""
+            href="#"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- Shipping Section -->
+      <mj-section padding="0">
+        <mj-column width="100%">
+          <mj-image
+            padding="0"
+            src="images\shipping section.png"
+            alt=""
+            href="#"
+          />
+        </mj-column>
+      </mj-section>
+
+      <!-- FOOTER SECTION -->
+      <!-- Mobile Apps -->
+      <mj-section padding="0">
+        <mj-column width="40%">
+          <mj-image
+            width="100px"
+            align="left"
+            src="images\mobile-apps.png"
+            alt=""
+            href="#"
+          />
+        </mj-column>
+
+        <!-- Social Links -->
+        <mj-column width="60%">
+          <mj-social align="center" icon-size="30px" mode="horizontal">
+            <mj-social-element mj-class="social-icons" name="twitter" href="#">
+            </mj-social-element>
+            <mj-social-element
+              mj-class="social-icons"
+              name="instagram"
+              href="#"
+            >
+            </mj-social-element>
+            <mj-social-element mj-class="social-icons" name="facebook" href="#">
+            </mj-social-element>
+            <mj-social-element mj-class="social-icons" name="linkedin" href="#">
+            </mj-social-element>
+          </mj-social>
+        </mj-column>
+        <mj-column width="100%">
+          <mj-text> *On eligible $25+ orders, plus easy returns. </mj-text>
+          <mj-text>
+            Please note that product availability is limited and prices are
+            subject to change.
+          </mj-text>
+          <mj-text>
+            Do not reply to this email. The inbox is not monitored.
+          </mj-text>
+          <mj-text>
+            If you require assistance, please click here for help.
+          </mj-text>
+          <mj-text>
+            Unsubscribe<br />This email is a Walmart advertisement. If you do
+            not want to receive these email updates, click here to unsubscribe.
+          </mj-text>
+          <mj-text>
+            Security &amp; Privacy<br />Walmart protects your security and
+            privacy. We will never ask for personal information (such as
+            passwords or credit card numbers) in an email newsletter. If you
+            receive such a request, please do not respond to the email. Learn
+            more. See our Privacy Policy.
+          </mj-text>
+          <mj-text>
+            Email Marketing, Walmart.com, 850 Cherry Avenue, San Bruno CA 94066
+          </mj-text>
+          <mj-text> &#169; 2023 Walmart. </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-wrapper>
+  </mj-body>
+</mjml>
